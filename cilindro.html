@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+    <script src="prog_cilindro.js" defer></script>
+    <title>Cálculos</title>
+</head>
+<body>
+        <br><br>
+    <div class="box">
+    <h1>Cálculo do Volume do Cilindro</h1>
+    <hr>
+    <button onclick="location.href='cilindro.html'">Cilindro</button>
+    <button onclick="location.href='index.html'">Paralelepípedo</button>
+    <hr>
+    <label for="raio">Digite o raio:</label><br><br>
+    <input type="number" id="raio" placeholder="Raio"><br><br>
+
+    <label for="altura">Digite a altura:</label><br><br>
+    <input type="number" id="altura" placeholder="Altura"><br><br>
+
+    <button onclick="calcula_vol_cilindro()">Calcular</button><br><br>
+    <div class="box2">
+        <div id="res"></div>
+    </div>
+    </div>
+</body>
+</html>
